@@ -1,0 +1,40 @@
+.hero-banner {
+  background-color: #000;
+  position: relative;
+  background-image: url('../images/IMG_7334.JPG');
+  background-size:auto 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  color:#fff;
+  font-weight: lighter;
+  height: 100vh;
+  text-align: center;
+  h1 {
+    font-size: 150px;
+    font-weight: 900;
+    position: relative;
+    margin-top:25%;
+    letter-spacing: 10px;
+    opacity: .9;
+  }
+}
+
+@media (min-width:500px) and (max-width:990px) {
+  .hero-banner {
+    h1 {
+      font-size:80px;
+      letter-spacing: 5px;
+    }
+  }
+}
+
+
+@media (max-width:499px) {
+  .hero-banner {
+    h1 {
+      font-size:30px;
+      letter-spacing: 5px;
+    }
+  }
+}

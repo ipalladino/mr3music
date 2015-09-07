@@ -1,0 +1,31 @@
+@import "variables.less";
+
+.three-columns {
+  h2 {
+    margin-top:0px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    color:#2d2d2d;
+    margin-bottom: 40px;
+  }
+  .item {
+    border:@border;
+    .image {
+      height:300px;
+      overflow: hidden;
+      img {
+        width:100%;
+      }
+    }
+    .content {
+      padding:10px;
+      .title {
+        font-weight:bold;
+        font-size:2em;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

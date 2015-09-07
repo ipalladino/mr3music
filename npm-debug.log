@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-express',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json musician@0.0.0 No repository field.
+5 warn package.json musician@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'grunt-contrib-express', null ]
+8 verbose cache add name=undefined spec="grunt-contrib-express" args=["grunt-contrib-express",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'grunt-contrib-express',
+9 verbose parsed url   path: 'grunt-contrib-express',
+9 verbose parsed url   href: 'grunt-contrib-express' }
+10 silly lockFile 7d09bf2d-grunt-contrib-express grunt-contrib-express
+11 verbose lock grunt-contrib-express /home/ignacio/.npm/7d09bf2d-grunt-contrib-express.lock
+12 silly lockFile 7d09bf2d-grunt-contrib-express grunt-contrib-express
+13 silly lockFile 7d09bf2d-grunt-contrib-express grunt-contrib-express
+14 verbose addNamed [ 'grunt-contrib-express', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 5b643e37-grunt-contrib-express grunt-contrib-express@
+17 verbose lock grunt-contrib-express@ /home/ignacio/.npm/5b643e37-grunt-contrib-express.lock
+18 silly addNameRange { name: 'grunt-contrib-express', range: '*', hasData: false }
+19 verbose url raw grunt-contrib-express
+20 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-express' ]
+21 verbose url resolved https://registry.npmjs.org/grunt-contrib-express
+22 info trying registry request attempt 1 at 01:48:33
+23 http GET https://registry.npmjs.org/grunt-contrib-express
+24 http 404 https://registry.npmjs.org/grunt-contrib-express
+25 silly registry.get cb [ 404,
+25 silly registry.get   { 'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=0',
+25 silly registry.get     'content-length': '2',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     date: 'Sat, 05 Sep 2015 08:48:33 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '0',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-lax1432-LAX',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1441442913.258124,VS0,VE53' } ]
+26 silly addNameRange number 2 { name: 'grunt-contrib-express', range: '*', hasData: true }
+27 silly addNameRange versions [ undefined, [] ]
+28 error TypeError: Cannot read property 'latest' of undefined
+28 error     at next (/usr/share/npm/lib/cache.js:687:35)
+28 error     at /usr/share/npm/lib/cache.js:675:5
+28 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+28 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+28 error     at Object.oncomplete (fs.js:107:15)
+29 error If you need help, you may report this log at:
+29 error     <http://github.com/isaacs/npm/issues>
+29 error or email it to:
+29 error     <npm-@googlegroups.com>
+30 error System Linux 3.16.0-28-generic
+31 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "grunt-contrib-express" "--save-dev"
+32 error cwd /home/ignacio/Development/musician
+33 error node -v v0.10.25
+34 error npm -v 1.3.10
+35 error type non_object_property_load
+36 verbose exit [ 1, true ]
