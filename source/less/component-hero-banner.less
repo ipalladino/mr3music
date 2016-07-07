@@ -10,13 +10,23 @@
   font-weight: lighter;
   height: 100vh;
   text-align: center;
+  .dark-back {
+    margin-top:22%;
+    background-color: rgba(0,0,0,.7);
+  }
   h1 {
     font-size: 150px;
     font-weight: 900;
     position: relative;
-    margin-top:25%;
     letter-spacing: 10px;
     opacity: .9;
+    img {
+      padding:30px;
+      max-width: 100%;
+    }
+  }
+  p {
+    font-size:28px;
   }
 }
 
@@ -29,12 +39,23 @@
   }
 }
 
+@media (max-width:768px) {
+  .hero-banner {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+  }
+}
+
 
 @media (max-width:499px) {
   .hero-banner {
     h1 {
       font-size:30px;
       letter-spacing: 5px;
+    }
+    p {
+      font-size:16px;
     }
   }
 }

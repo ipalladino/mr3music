@@ -11,9 +11,10 @@
     margin-bottom: 40px;
   }
   .item {
+    background-color: #ffffff;
     border:@border;
     .image {
-      height:300px;
+      height:201px;
       overflow: hidden;
       img {
         width:100%;
@@ -26,6 +27,14 @@
         font-size:2em;
         margin-bottom: 20px;
       }
+    }
+  }
+}
+
+@media (max-width:768px) {
+  .three-columns {
+    .item {
+      margin-bottom:25px;
     }
   }
 }

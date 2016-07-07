@@ -1,5 +1,6 @@
 .tour-dates {
   position: relative;
+  background-color: #000;
   background-image: url('../images/IMG_7334.JPG');
   background-size:auto 100%;
   background-repeat: no-repeat;
@@ -21,5 +22,13 @@
     color: #2d2d2d;
     background-color: rgba(255, 255, 255, .8);
     text-align: left;
+  }
+}
+
+@media (max-width:768px) {
+  .tour-dates {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
   }
 }
